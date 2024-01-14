@@ -1,0 +1,15 @@
+h1{
+    color: blue;
+    background-color:rgb(29, 131, 248);
+}
+.testing1{
+    color: fuchsia;
+}
+.testing2{
+    color: orange;
+    background-color: yellow;
+}
+.testing3{
+    background-color:lightgreen;
+    font-weight: 800;
+}
