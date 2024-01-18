@@ -1,6 +1,9 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wdth,wght@125,600&display=swap');
+* {
 background-color: lightgrey;
-color: gray;
 }
 .Task1{
     color: blue;
@@ -22,6 +25,9 @@ color: gray;
     background-color: rgba(236, 197, 179, 0.932);
     color: rgb(156, 16, 16);
 }
+p {
+    color: gray;
+}
 li > a {
     background-color: rgb(211, 241, 211);
     color: green;
@@ -29,4 +35,37 @@ li > a {
 .testing4 {
     background-color: rgba(240, 248, 255, 0.61);
     color: rgb(204, 204, 4);
+}
+.Task3 {
+color: blue;
+text-align: center;
+text-decoration: underline;
+}
+label > p {
+color: black;
+}
+.Urdu {
+    font-family: "Noto Nastaliq Urdu", serif;
+    text-align: center;
+}
+.testing5 {
+    font-family: sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+.testing6 {
+    font-family: "Lemon", serif;
+    font-weight: 900;
+}
+.testing7 {
+    font-family: "Advent Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 125;
+}
+.testing8 {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
 }
